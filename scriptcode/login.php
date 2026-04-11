@@ -35,75 +35,36 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Login - Multi Role System</title>
-  <style>
-    body {
-      font-family: 'Segoe UI', sans-serif;
-      background: linear-gradient(to right, #1e3c72, #2a5298);
-      margin: 0;
-      height: 100vh;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-
-    .login-container {
-      background: #fff;
-      padding: 40px;
-      border-radius: 16px;
-      box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
-      max-width: 400px;
-      width: 100%;
-    }
-
-    .login-container h2 {
-      text-align: center;
-      margin-bottom: 25px;
-      color: #1e3c72;
-    }
-
-    .login-container input {
-      width: 100%;
-      padding: 14px;
-      margin-bottom: 16px;
-      border: 1px solid #ccc;
-      border-radius: 8px;
-      font-size: 16px;
-    }
-
-    .login-container button {
-      width: 100%;
-      padding: 12px;
-      background: #1e3c72;
-      color: #fff;
-      border: none;
-      font-size: 16px;
-      border-radius: 8px;
-      cursor: pointer;
-    }
-
-    .login-container button:hover {
-      background: #2a5298;
-    }
-
-    .error {
-      color: red;
-      text-align: center;
-      margin-top: 10px;
-    }
-  </style>
+  <title>Login - ScriptAI Digital</title>
+  <link rel="stylesheet" href="style.css?v=3">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
 </head>
-<body>
-  <div class="login-container">
-    <h2>Login</h2>
-    <form method="POST">
-      <input type="text" name="username" placeholder="Username" required />
-      <input type="password" name="password" placeholder="Password" required />
-      <button type="submit">Login</button>
-    </form>
-    <?php if (isset($error)) echo "<div class='error'>$error</div>"; ?> <br/><br/>
-	If not registered <a href='register.php'>Please sign up</a>
-  </div>
+<body style="background: var(--bg-white);">
+  <?php include 'header.php'; ?>
   
+  <section class="ds-content-section fade-up" style="min-height: 80vh; display: flex; align-items: center;">
+    <div class="ds-container" style="width: 100%;">
+      <div class="ds-form-container">
+        <h2 style="text-align: center; margin-bottom: 30px; font-size: 32px;">Welcome Back</h2>
+        <form method="POST">
+          <label>Username</label>
+          <input type="text" name="username" placeholder="Username" required />
+          <label>Password</label>
+          <input type="password" name="password" placeholder="Password" required />
+          
+          <button type="submit" class="ds-btn primary" style="width: 100%; justify-content: center; border: none; cursor: pointer; font-family: var(--font-heading); margin-top: 10px;">
+            Login
+          </button>
+        </form>
+        <?php if (isset($error)) echo "<div style='color: red; text-align: center; margin-top: 15px; font-weight: 500;'>$error</div>"; ?>
+        
+        <div style="text-align: center; margin-top: 25px; color: var(--text-muted);">
+          Don't have an account? <a href="register.php" style="color: var(--text-purple); font-weight: 600;">Sign up</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <?php include 'footer.php'; ?>
 </body>
 </html>

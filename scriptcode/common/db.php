@@ -9,7 +9,7 @@
 $host = 'localhost';
 $db   = 'scriptaid';
 $user = 'root';
-$pass = '';
+$pass = '1234';
 $charset = 'utf8mb4';
 
 // DSN and PDO setup

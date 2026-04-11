@@ -24,7 +24,7 @@
   </style>
 </head>
 <body>
-  <div class="service-detail">
+  <section class="ds-mini-hero fade-up" style="padding-bottom: 20px;"><h1>Our Services</h1></section><section class="ds-content-section fade-up delay-1"><div class="ds-container"><div style="max-width: 900px; margin: 0 auto; background: white; padding: 40px; border-radius: 12px; border: 1px solid var(--border-light); box-shadow: 0 10px 40px rgba(0,0,0,0.02);">
     <h2>Legal Tech Automation in India: How Technology Is Transforming Law Firms and Legal Services</h2>
     <p>We offer cutting-edge legal automation software tailored for law firms, advocates, and consultants. Our tools streamline case management, document automation, e-signatures, hearing tracking, and client communication, saving time and improving accuracy.</p><br/>
 	<h3>Introduction</h3>

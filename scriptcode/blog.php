@@ -24,77 +24,51 @@ $posts = $stmt->fetchAll(PDO::FETCH_ASSOC);
 <head>
   <meta charset="UTF-8">
   <title>Blog - ScriptAI Digital Services</title>
-  <link rel="stylesheet" href="style.css?v=1">
+  <link rel="stylesheet" href="style.css?v=3">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
   <style>
-    .blog-section {
-      padding: 60px 40px;
-      background: #f9f9f9;
-    }
-    .blog-grid {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 30px;
-      justify-content: center;
-    }
-    .blog-card {
-      background: white;
-      border-radius: 15px;
-      padding: 20px;
-      flex: 1 1 calc(33.333% - 30px);
-      box-shadow: 0 6px 14px rgba(0, 0, 0, 0.08);
-      max-width: calc(33.333% - 30px);
-    }
-    .blog-card h3 {
-      margin-bottom: 10px;
-      color: #1e3c72;
-    }
-    .btn-read {
-      display: inline-block;
-      margin-top: 10px;
-      background: #1e3c72;
-      color: white;
-      padding: 8px 14px;
-      border-radius: 6px;
-      text-decoration: none;
-    }
     .pagination {
-      margin-top: 40px;
+      margin-top: 60px;
       text-align: center;
     }
     .pagination a {
       margin: 0 6px;
       text-decoration: none;
-      color: #1e3c72;
+      color: var(--text-navy);
       font-weight: bold;
+      padding: 8px 16px;
+      border-radius: 8px;
+      border: 1px solid var(--border-light);
+      transition: 0.3s;
+    }
+    .pagination a:hover {
+      background: var(--border-light);
     }
     .pagination a.active {
-      background: #1e3c72;
+      background: var(--btn-purple);
       color: white;
-      padding: 4px 10px;
-      border-radius: 5px;
-    }
-
-    @media (max-width: 768px) {
-      .blog-card {
-        flex: 1 1 100%;
-        max-width: 100%;
-      }
+      border-color: var(--btn-purple);
     }
   </style>
 </head>
-<body>
+<body style="background: var(--bg-white);">
 
 <?php include 'header.php'; ?>
 
-<section class="blog-section">
-  <div class="container">
-    <h2>Latest Blog Posts</h2>
-    <div class="blog-grid">
+<section class="ds-mini-hero fade-up">
+  <h1>Inside ScriptAI</h1>
+  <p>Learn about our latest software architectures, digital marketing insights, and company news.</p>
+</section>
+
+<section class="ds-content-section fade-up delay-1">
+  <div class="ds-container">
+    
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 40px;">
       <?php foreach ($posts as $post): ?>
-        <div class="blog-card">
-          <h3><?= htmlspecialchars($post['title']) ?></h3>
-          <p><?= substr(strip_tags($post['content']), 0, 150) ?>...</p>
-          <a href="post.php?id=<?= $post['id'] ?>" class="btn-read">Read More</a>
+        <div style="border: 1px solid var(--border-light); border-radius: 12px; overflow: hidden; padding: 30px; display: flex; flex-direction: column;">
+          <h3 style="margin-top: 0; font-size: 22px; margin-bottom: 15px; color: var(--text-navy);"><?= htmlspecialchars($post['title']) ?></h3>
+          <p style="flex-grow: 1; font-size: 15px; color: var(--text-muted); line-height: 1.6; margin-bottom: 25px;"><?= substr(strip_tags($post['content']), 0, 150) ?>...</p>
+          <a href="post.php?id=<?= $post['id'] ?>" class="ds-btn primary" style="align-self: flex-start; padding: 10px 20px; font-size: 14px;">Read More</a>
         </div>
       <?php endforeach; ?>
     </div>
@@ -105,6 +79,7 @@ $posts = $stmt->fetchAll(PDO::FETCH_ASSOC);
         <a href="?page=<?= $i ?>" class="<?= $i === $page ? 'active' : '' ?>"><?= $i ?></a>
       <?php endfor; ?>
     </div>
+
   </div>
 </section>
 

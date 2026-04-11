@@ -24,7 +24,7 @@
   </style>
 </head>
 <body>
-  <div class="service-detail">
+  <section class="ds-mini-hero fade-up" style="padding-bottom: 20px;"><h1>Our Services</h1></section><section class="ds-content-section fade-up delay-1"><div class="ds-container"><div style="max-width: 900px; margin: 0 auto; background: white; padding: 40px; border-radius: 12px; border: 1px solid var(--border-light); box-shadow: 0 10px 40px rgba(0,0,0,0.02);">
     <h1>Web Development Services in India - Build Your Online Presence</h1>
     <p> <strong>Introduction</strong><br/>
 	In the digital era, your website is your first impression — and first impressions matter. Whether you run a business, startup, law firm, or online store, your website plays a critical role in building credibility, attracting leads, and growing your brand<br/>

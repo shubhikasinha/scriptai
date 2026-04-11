@@ -24,7 +24,7 @@
   </style>
 </head>
 <body>
-  <div class="service-detail">
+  <section class="ds-mini-hero fade-up" style="padding-bottom: 20px;"><h1>Our Services</h1></section><section class="ds-content-section fade-up delay-1"><div class="ds-container"><div style="max-width: 900px; margin: 0 auto; background: white; padding: 40px; border-radius: 12px; border: 1px solid var(--border-light); box-shadow: 0 10px 40px rgba(0,0,0,0.02);">
     <h1>Mobile App Development Services in India – Build Smart Apps with Script AI</h1><br/>
     <p><strong>Introduction</strong><br/>
 In a mobile-first world, your business needs more than just a website — it needs a powerful mobile presence. From e-commerce apps and service booking apps to ERP dashboards and client portals, mobile apps are reshaping how businesses engage with their customers<br/>

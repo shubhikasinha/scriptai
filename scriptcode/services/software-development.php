@@ -24,7 +24,7 @@
   </style>
 </head>
 <body>
-  <div class="service-detail">
+  <section class="ds-mini-hero fade-up" style="padding-bottom: 20px;"><h1>Our Services</h1></section><section class="ds-content-section fade-up delay-1"><div class="ds-container"><div style="max-width: 900px; margin: 0 auto; background: white; padding: 40px; border-radius: 12px; border: 1px solid var(--border-light); box-shadow: 0 10px 40px rgba(0,0,0,0.02);">
     <h1>Software Development Services in India</h1><br/>
     <p><strong>Introduction</strong><br/>
 	In today’s digital-first world, custom software development is no longer a luxury — it’s a necessity. Whether you are a startup, an SME, or a large enterprise, having the right software can dramatically enhance your efficiency, reduce costs, and give you a competitive edge.<br/>

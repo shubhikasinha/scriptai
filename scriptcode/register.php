@@ -38,123 +38,75 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>User Registration</title>
-  <style>
-    body {
-      font-family: 'Segoe UI', sans-serif;
-      background: #eef2f7;
-      margin: 0;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-    }
-
-    .register-box {
-      background: white;
-      padding: 40px;
-      border-radius: 16px;
-      box-shadow: 0 12px 28px rgba(0, 0, 0, 0.1);
-      max-width: 450px;
-      width: 100%;
-    }
-
-    .register-box h2 {
-      text-align: center;
-      margin-bottom: 25px;
-      color: #1e3c72;
-    }
-
-    .register-box input, .register-box select {
-      width: 100%;
-      padding: 14px;
-      margin-bottom: 16px;
-      border: 1px solid #ccc;
-      border-radius: 8px;
-      font-size: 16px;
-    }
-
-    .register-box button {
-      width: 100%;
-      padding: 12px;
-      background: #1e3c72;
-      color: white;
-      border: none;
-      font-size: 16px;
-      border-radius: 8px;
-      cursor: pointer;
-    }
-
-    .register-box button:hover {
-      background: #274a96;
-    }
-
-    .error, .confirmation {
-      text-align: center;
-      margin-top: 10px;
-    }
-
-    .error { color: red; }
-    .confirmation { color: green; }
-
-    #strengthMeter {
-      height: 6px;
-      width: 100%;
-      background: #ddd;
-      border-radius: 6px;
-      margin-top: -12px;
-      margin-bottom: 12px;
-      overflow: hidden;
-    }
-
-    #strengthBar {
-      height: 100%;
-      width: 0%;
-      transition: 0.3s;
-    }
-  </style>
+  <title>Register - ScriptAI Digital</title>
+  <link rel="stylesheet" href="style.css?v=3">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
 </head>
-<body>
+<body style="background: var(--bg-white);">
+  <?php include 'header.php'; ?>
+  
+  <section class="ds-content-section fade-up" style="min-height: 80vh; display: flex; align-items: center;">
+    <div class="ds-container" style="width: 100%;">
+      <div class="ds-form-container">
+        <h2 style="text-align: center; margin-bottom: 30px; font-size: 32px;">Create Account</h2>
+        <form method="POST">
+          <label>Username</label>
+          <input type="text" name="username" placeholder="Username" required />
+          
+          <label>Email Address</label>
+          <input type="email" name="email" placeholder="Email Address" required />
+          
+          <label>Password</label>
+          <input type="password" id="password" name="password" placeholder="Password" required />
+          
+          <!-- Strength Meter -->
+          <div id="strengthMeter" style="height: 6px; width: 100%; background: var(--border-light); border-radius: 6px; margin-top: -12px; margin-bottom: 20px; overflow: hidden;">
+            <div id="strengthBar" style="height: 100%; width: 0%; transition: 0.3s;"></div>
+          </div>
+          
+          <label>Role</label>
+          <select name="role" required style="width: 100%; padding: 15px; border: 1px solid var(--border-light); border-radius: 8px; margin-bottom: 20px; font-family: inherit; font-size: 15px; background: #fdfdfd; outline: none;">
+            <option value="">Select Role</option>
+            <option value="user">User</option>
+            <option value="editor">Editor</option>
+            <option value="viewer">Viewer</option>
+          </select>
+          
+          <button type="submit" class="ds-btn primary" style="width: 100%; justify-content: center; border: none; cursor: pointer; font-family: var(--font-heading); margin-top: 10px;">
+            Register
+          </button>
+        </form>
 
-<div class="register-box">
-  <h2>Create Account</h2>
-  <form method="POST">
-    <input type="text" name="username" placeholder="Username" required />
-    <input type="email" name="email" placeholder="Email Address" required />
-    <input type="password" id="password" name="password" placeholder="Password" required />
-    <div id="strengthMeter"><div id="strengthBar"></div></div>
-    <select name="role" required>
-      <option value="">Select Role</option>
-      <option value="user">User</option>
-      <option value="editor">Editor</option>
-      <option value="viewer">Viewer</option>
-    </select>
-    <button type="submit">Register</button>
-  </form>
+        <?php 
+          if (isset($error)) echo "<div style='color: red; text-align: center; margin-top: 15px; font-weight: 500;'>$error</div>";
+          if (isset($confirmation)) echo "<div style='color: green; text-align: center; margin-top: 15px; font-weight: 500;'>$confirmation</div>"; 
+        ?>
+        
+        <div style="text-align: center; margin-top: 25px; color: var(--text-muted);">
+          Already have an account? <a href="login.php" style="color: var(--text-purple); font-weight: 600;">Sign in</a>
+        </div>
+      </div>
+    </div>
+  </section>
 
-  <?php 
-    if (isset($error)) echo "<div class='error'>$error</div>";
-    if (isset($confirmation)) echo "<div class='confirmation'>$confirmation</div>"; 
-  ?>
-</div>
+  <?php include 'footer.php'; ?>
 
-<script>
-const passwordInput = document.getElementById("password");
-const strengthBar = document.getElementById("strengthBar");
+  <script>
+    const passwordInput = document.getElementById("password");
+    const strengthBar = document.getElementById("strengthBar");
 
-passwordInput.addEventListener("input", () => {
-  const val = passwordInput.value;
-  let strength = 0;
+    passwordInput.addEventListener("input", () => {
+      const val = passwordInput.value;
+      let strength = 0;
 
-  if (val.length > 6) strength += 1;
-  if (/[A-Z]/.test(val)) strength += 1;
-  if (/[0-9]/.test(val)) strength += 1;
-  if (/[@$!%*?&#]/.test(val)) strength += 1;
+      if (val.length > 6) strength += 1;
+      if (/[A-Z]/.test(val)) strength += 1;
+      if (/[0-9]/.test(val)) strength += 1;
+      if (/[@$!%*?&#]/.test(val)) strength += 1;
 
-  strengthBar.style.width = (strength * 25) + "%";
-  strengthBar.style.background = ["#ccc", "#f66", "#fc3", "#6c6", "#4caf50"][strength];
-});
-</script>
-
+      strengthBar.style.width = (strength * 25) + "%";
+      strengthBar.style.background = ["#ccc", "#f66", "#fc3", "#6c6", "#4caf50"][strength];
+    });
+  </script>
 </body>
 </html>
