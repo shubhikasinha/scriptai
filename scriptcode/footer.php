@@ -18,21 +18,21 @@
             <div class="white-box-col">
                 <h4>Company</h4>
                 <ul>
-                    <li><a href="about.php">About us</a></li>
-                    <li><a href="team.php">Our Team</a></li>
-                    <li><a href="contact.php">Contact us</a></li>
-                    <li><a href="blog.php">Blogs</a></li>
-                    <li><a href="portfolio.php">Portfolio</a></li>
+                    <li><a href="/about.php">About us</a></li>
+                    <li><a href="/team.php">Our Team</a></li>
+                    <li><a href="/contact.php">Contact us</a></li>
+                    <li><a href="/blog.php">Blogs</a></li>
+                    <li><a href="/portfolio.php">Portfolio</a></li>
                 </ul>
             </div>
             
             <div class="white-box-col">
                 <h4>Explore</h4>
                 <ul>
-                    <li><a href="services/legal-tech-automation.php">Legal Tech</a></li>
-                    <li><a href="services/software-development.php">Software Development</a></li>
-                    <li><a href="services/web-development.php">Web Development</a></li>
-                    <li><a href="services/digital-marketing.php">Digital Marketing</a></li>
+                    <li><a href="/services/legal-tech-automation.php">Legal Tech</a></li>
+                    <li><a href="/services/software-development.php">Software Development</a></li>
+                    <li><a href="/services/web-development.php">Web Development</a></li>
+                    <li><a href="/services/digital-marketing.php">Digital Marketing</a></li>
                     <li><a href="#">Social Media Marketing</a></li>
                 </ul>
                 <h4 style="margin-top: 20px;">Get In Touch</h4>

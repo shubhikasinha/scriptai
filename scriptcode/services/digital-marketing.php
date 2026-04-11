@@ -1,4 +1,4 @@
-<?php include '../header.php'; ?>
+﻿<?php include '../header.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -22,15 +22,21 @@
       line-height: 1.7;
     }
   </style>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-  <section class="ds-mini-hero fade-up" style="padding-bottom: 20px;"><h1>Our Services</h1></section><section class="ds-content-section fade-up delay-1"><div class="ds-container"><div style="max-width: 900px; margin: 0 auto; background: white; padding: 40px; border-radius: 12px; border: 1px solid var(--border-light); box-shadow: 0 10px 40px rgba(0,0,0,0.02);">
+  <section class="ds-mini-hero fade-up" style="padding-bottom: 20px;"><h1>Our Services</h1></section><section class="ds-content-section fade-up delay-1"><div class="ds-container"><div class="service-article-content" style="max-width: 900px; margin: 0 auto; background: white; padding: 40px; border-radius: 12px; border: 1px solid var(--border-light); box-shadow: 0 10px 40px rgba(0,0,0,0.02);">
     <h1>Digital Marketing Services</h1>
     <p><strong>Drive Traffic. Generate Leads. Grow Online.</strong><br/>
 
-At Script AI Digital Services Pvt. Ltd., we offer result-driven digital marketing services in India that help you connect with your audience, increase your visibility, and boost conversions. Whether you're a startup, local business, or enterprise, our expert team crafts personalized strategies to make your brand stand out in the crowded digital world<br/><br/>
-🌐 <strong>What We Do</strong><br/>
-✅ <strong>Search Engine Optimization (SEO)</strong><br/>
+At Script AI Digital Services Pvt. Ltd., we offer result-driven digital marketing services in India that help you connect with your audience, increase your visibility, and boost conversions. Whether you're a startup, local business, or enterprise, our expert team crafts personalized strategies to make your brand stand out in the crowded digital world<br/><ul class="service-list">
+<li><strong>What We Do</strong></li>
+</ul>
+
+<ul class="service-list">
+<li><strong>Search Engine Optimization (SEO)</strong></li>
+</ul>
+
 Rank higher on Google and reach the right audience organically<br/>
 
 Keyword research & content optimization<br/>
@@ -41,9 +47,10 @@ Backlink building<br/>
 
 Local SEO for Google Maps<br/>
 
-Monthly reporting & performance tracking<br/><br/>
+Monthly reporting & performance tracking<br/><ul class="service-list">
+<li><strong>Social Media Marketing (SMM)</strong></li>
+</ul>
 
-✅ <strong>Social Media Marketing (SMM)</strong><br/>
 Engage, grow, and convert your audience on platforms like Facebook, Instagram, LinkedIn, and YouTube.<br/>
 
 Content calendar & strategy<br/>
@@ -54,9 +61,10 @@ Paid ad campaigns (Boosted posts, lead gen)<br/>
 
 Community management<br/>
 
-Analytics & improvement reports<br/><br/>
+Analytics & improvement reports<br/><ul class="service-list">
+<li><strong>Google Ads & PPC Campaigns</strong></li>
+</ul>
 
-✅ <strong>Google Ads & PPC Campaigns</strong><br/>
 Instant traffic with precision targeting.<br/>
 
 Search, Display & Shopping Ads<br/>
@@ -67,9 +75,10 @@ A/B testing for landing pages<br/>
 
 Conversion tracking & optimization<br/>
 
-Budget-efficient ad strategies<br/><br/>
+Budget-efficient ad strategies<br/><ul class="service-list">
+<li><strong>Content Marketing</strong></li>
+</ul>
 
-✅ <strong>Content Marketing</strong><br/>
 Build authority and trust with meaningful content.<br/>
 
 Blog writing & SEO articles<br/>
@@ -80,9 +89,10 @@ Social media captions<br/>
 
 Email newsletters<br/>
 
-Case studies, whitepapers & more<br/><br/>
+Case studies, whitepapers & more<br/><ul class="service-list">
+<li><strong>Email & WhatsApp Marketing</strong></li>
+</ul>
 
-✅ <strong>Email & WhatsApp Marketing</strong><br/>
 Reach your customers directly with personalized messages.<br/>
 
 Automated email workflows<br/>
@@ -91,10 +101,11 @@ Promotional campaigns<br/>
 
 WhatsApp business API setup<br/>
 
-Campaign analytics & delivery reports<br/><br/>
+Campaign analytics & delivery reports<br/><ul class="service-list">
+<li><strong>Online Reputation Management (ORM)</strong></li>
+</ul>
 
-✅ <strong>Online Reputation Management (ORM)</strong><br/>
-Protect and grow your brand’s image across the web.<br/>
+Protect and grow your brands image across the web.<br/>
 
 Review monitoring (Google, Justdial, etc.)<br/>
 
@@ -102,25 +113,27 @@ Negative review response strategy<br/>
 
 Positive feedback promotions<br/>
 
-Brand mention tracking<br/><br/>
+Brand mention tracking<br/><ul class="service-list">
+<li><strong>Why Choose Script AI for Digital Marketing?</strong></li>
+</ul>
 
-🎯 <strong>Why Choose Script AI for Digital Marketing?</strong><br/>
-📊 Data-Driven Strategies
+- Data-Driven Strategies
 Every campaign is backed by analytics and performance metrics.<br/>
 
-🎨 Creative Team
+- Creative Team
 Stunning visuals, compelling content, and trending formats.<br/>
 
-🚀 Growth-Focused Approach
-We focus on leads, conversions, and ROI — not just traffic.<br/>
+- Growth-Focused Approach
+We focus on leads, conversions, and ROI  not just traffic.<br/>
 
-⏱️ Fast Execution & Transparent Reporting
+- Fast Execution & Transparent Reporting
 Real-time insights and monthly progress updates.<br/>
 
-💼 Industry-Specific Campaigns
-Whether you're in legal, healthcare, education, or retail — we tailor your strategy.<br/><br/>
+- Industry-Specific Campaigns
+Whether you're in legal, healthcare, education, or retail  we tailor your strategy.<br/><ul class="service-list">
+<li><strong>Tools We Work With</strong></li>
+</ul>
 
-🛠️ <strong>Tools We Work With</strong><br/>
 Google Ads, Analytics, Search Console<br/>
 
 Meta Business Suite (Facebook/Instagram Ads)<br/>
@@ -132,7 +145,7 @@ Mailchimp, Sendinblue, Zoho Campaigns<br/>
 Canva, Photoshop, Adobe Premiere (Creative)<br/>
 
 </p>
-  </div>
+  </div></div></div></section>
 <?php include '../footer.php'; ?>
 </body>
 </html>

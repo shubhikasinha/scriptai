@@ -289,6 +289,40 @@ h1, h2, h3, h4, h5, h6 { font-family: var(--font-heading); color: var(--text-nav
     margin-bottom: 20px;
 }
 
+/* Service Article Formatting for raw text dumps */
+.service-article-content p {
+    font-size: 17px;
+    line-height: 2.2;
+    color: var(--text-navy);
+}
+.service-article-content p strong {
+    display: block;
+    font-size: 24px;
+    color: var(--text-purple);
+    margin-top: 50px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid var(--border-light);
+    padding-bottom: 10px;
+    line-height: 1.4;
+}
+.service-article-content h1 {
+    font-size: 38px;
+    text-align: center;
+    color: var(--text-navy);
+    margin-bottom: 40px;
+}
+.service-article-content ul.service-list {
+    margin: 20px 0 30px 20px;
+    padding-left: 20px;
+    list-style-type: disc;
+    color: var(--text-muted);
+}
+.service-article-content ul.service-list li {
+    font-size: 17px;
+    line-height: 1.8;
+    margin-bottom: 15px;
+}
+
 .progress-section {
     padding: 60px 0;
 }

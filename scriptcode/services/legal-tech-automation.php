@@ -1,4 +1,4 @@
-<?php include '../header.php'; ?>
+﻿<?php include '../header.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -22,9 +22,10 @@
       line-height: 1.7;
     }
   </style>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-  <section class="ds-mini-hero fade-up" style="padding-bottom: 20px;"><h1>Our Services</h1></section><section class="ds-content-section fade-up delay-1"><div class="ds-container"><div style="max-width: 900px; margin: 0 auto; background: white; padding: 40px; border-radius: 12px; border: 1px solid var(--border-light); box-shadow: 0 10px 40px rgba(0,0,0,0.02);">
+  <section class="ds-mini-hero fade-up" style="padding-bottom: 20px;"><h1>Our Services</h1></section><section class="ds-content-section fade-up delay-1"><div class="ds-container"><div class="service-article-content" style="max-width: 900px; margin: 0 auto; background: white; padding: 40px; border-radius: 12px; border: 1px solid var(--border-light); box-shadow: 0 10px 40px rgba(0,0,0,0.02);">
     <h2>Legal Tech Automation in India: How Technology Is Transforming Law Firms and Legal Services</h2>
     <p>We offer cutting-edge legal automation software tailored for law firms, advocates, and consultants. Our tools streamline case management, document automation, e-signatures, hearing tracking, and client communication, saving time and improving accuracy.</p><br/>
 	<h3>Introduction</h3>
@@ -40,23 +41,26 @@ From online legal documentation to AI-powered case tracking, automation is strea
 <h3>Why Legal Tech Automation Is Important in India</h3>
 <p>India's legal system is one of the largest in the world, with:</br>
 
-✅ Over 1.4 million registered advocates<br/>
+<ul class="service-list">
+<li>Over 1.4 million registered advocates</li>
+</ul>
 
-✅ 40 million pending cases (as per NJDG, 2024)</br>
 
-✅ Thousands of courts at different levels (District, High Court, Supreme Court)</br> 
+- 40 million pending cases (as per NJDG, 2024)</br>
+
+- Thousands of courts at different levels (District, High Court, Supreme Court)</br> 
 
 Despite this scale, many legal firms and court systems still operate with outdated, manual practices. Legal tech automation is crucial in addressing:<br/>
 
-✅ Case backlog and delays</br>
+- Case backlog and delays</br>
 
-✅ Human errors in documentation</br>
+- Human errors in documentation</br>
 
-✅ Lack of transparency in proceedings</br>
+- Lack of transparency in proceedings</br>
 
-✅ Inefficient client-lawyer communication</br>
+- Inefficient client-lawyer communication</br>
 
-✅ Difficulty in compliance and legal workflow management</br></br>
+- Difficulty in compliance and legal workflow management</br></br>
 
 
 
@@ -111,55 +115,98 @@ Clients appreciate transparency, timely updates, and digital communication, all 
 Legal tech enables firms to grow faster without a proportional increase in administrative burden.<br/></p><br/>
 
 <h3>Legal Tech Startups and Trends in India</h3>
-<p>India is witnessing the rise of several legal tech startups offering innovative services:<br/>
+<p>India is witnessing the rise of several legal tech startups offering innovative services:<ul class="service-list">
+<li>Case tracking and e-court integrations (e.g., using APIs from NJDG or court websites)</li>
+</ul>
 
-✅ Case tracking and e-court integrations (e.g., using APIs from NJDG or court websites)<br/>
 
-✅ Smart contract tools for blockchain-based legal agreements<br/>
+<ul class="service-list">
+<li>Smart contract tools for blockchain-based legal agreements</li>
+</ul>
 
-✅ Legal chatbots to answer common legal questions<br/>
 
-✅ Online legal marketplaces where users can find verified lawyers, file complaints, or generate contracts instantly<br/>
+<ul class="service-list">
+<li>Legal chatbots to answer common legal questions</li>
+</ul>
 
-✅ The Indian government is also digitizing the judicial process through eCourts, virtual hearings, and digital filing systems, paving the way for more tech-driven legal services.</p><br/>
+
+<ul class="service-list">
+<li>Online legal marketplaces where users can find verified lawyers, file complaints, or generate contracts instantly</li>
+</ul>
+
+
+<ul class="service-list">
+<li>The Indian government is also digitizing the judicial process through eCourts, virtual hearings, and digital filing systems, paving the way for more tech-driven legal services.</p></li>
+</ul>
+
 
 <h3>Challenges in Adoption</h3>
-<p>While the future is promising, legal tech automation in India still faces challenges:<br/>
+<p>While the future is promising, legal tech automation in India still faces challenges:<ul class="service-list">
+<li><strong>Resistance to change</strong> from traditional practitioners</li>
+</ul>
 
-✅ <strong>Resistance to change</strong> from traditional practitioners<br/>
 
-✅ <strong>Low digital literacy among lawyers</strong> in rural or semi-urban areas<br/>
+<ul class="service-list">
+<li><strong>Low digital literacy among lawyers</strong> in rural or semi-urban areas</li>
+</ul>
 
-✅ <strong>Lack of standardization</strong> across legal tech platforms<br/>
 
-✅ <strong>Cybersecurity and data privacy concerns</strong><br/>
+<ul class="service-list">
+<li><strong>Lack of standardization</strong> across legal tech platforms</li>
+</ul>
+
+
+<ul class="service-list">
+<li><strong>Cybersecurity and data privacy concerns</strong></li>
+</ul>
+
 
 To overcome these, there's a need for training, awareness campaigns, and user-friendly solutions that require minimal technical knowledge.</p><br/>
 
 <h3>Script AI's Role in Legal Tech Innovation</h3>
-<p>At Script AI Digital Services Pvt. Ltd., we are committed to helping legal professionals embrace the future. Our custom-built legal automation tools are:<br/>
+<p>At Script AI Digital Services Pvt. Ltd., we are committed to helping legal professionals embrace the future. Our custom-built legal automation tools are:<ul class="service-list">
+<li><strong>User-friendly:</strong> Designed with simple interfaces for easy adoption</li>
+</ul>
 
-✅ <strong>User-friendly:</strong> Designed with simple interfaces for easy adoption<br/>
 
-✅ <strong>Secure:</strong> End-to-end encryption and role-based access<br/>
+<ul class="service-list">
+<li><strong>Secure:</strong> End-to-end encryption and role-based access</li>
+</ul>
 
-✅ <strong>Customizable:</strong> Tailored to each firm's size and workflow<br/>
 
-✅ <strong>Scalable:</strong> Suitable for solo lawyers to large law firms</p><br/>
+<ul class="service-list">
+<li><strong>Customizable:</strong> Tailored to each firm's size and workflow</li>
+</ul>
+
+
+<ul class="service-list">
+<li><strong>Scalable:</strong> Suitable for solo lawyers to large law firms</p></li>
+</ul>
+
 
 <h3>Our solutions include:</h3>
 
-<p><strong>Online case management dashboards</strong><br/>
+<p><strong>Online case management dashboards</strong><ul class="service-list">
+<li><strong>Document automation systems</strong></li>
+</ul>
 
-✅ <strong>Document automation systems</strong><br/>
 
-✅ <strong>AI-powered legal search</strong><br/>
+<ul class="service-list">
+<li><strong>AI-powered legal search</strong></li>
+</ul>
 
-✅ <strong>Client portals and e-sign integrations</strong><br/>
 
-✅ <strong>Legal CRM for client relationship and billing</strong></p><br/>
+<ul class="service-list">
+<li><strong>Client portals and e-sign integrations</strong></li>
+</ul>
 
-  </div>
+
+<ul class="service-list">
+<li><strong>Legal CRM for client relationship and billing</strong></p></li>
+</ul>
+
+
+  </div></div></div></section>
 <?php include '../footer.php'; ?>
 </body>
 </html>

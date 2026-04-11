@@ -1,4 +1,4 @@
-<?php include '../header.php'; ?>
+﻿<?php include '../header.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -22,19 +22,24 @@
       line-height: 1.7;
     }
   </style>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-  <section class="ds-mini-hero fade-up" style="padding-bottom: 20px;"><h1>Our Services</h1></section><section class="ds-content-section fade-up delay-1"><div class="ds-container"><div style="max-width: 900px; margin: 0 auto; background: white; padding: 40px; border-radius: 12px; border: 1px solid var(--border-light); box-shadow: 0 10px 40px rgba(0,0,0,0.02);">
+  <section class="ds-mini-hero fade-up" style="padding-bottom: 20px;"><h1>Our Services</h1></section><section class="ds-content-section fade-up delay-1"><div class="ds-container"><div class="service-article-content" style="max-width: 900px; margin: 0 auto; background: white; padding: 40px; border-radius: 12px; border: 1px solid var(--border-light); box-shadow: 0 10px 40px rgba(0,0,0,0.02);">
     <h1>Analytics & Digital Strategy Services</h1>
     <p><strong>Turn Data into Action. Make Every Click Count</strong><br/>
 
 At Script AI Digital Services Pvt. Ltd., we help businesses make smarter decisions through powerful digital analytics and result-driven strategies. From understanding user behavior to optimizing marketing performance, we give you the data clarity you need to scale faster and smarter<br/>
 
-We combine marketing intelligence, web analytics, customer journey mapping, and ROI-focused strategies to unlock growth across all digital channels<br/><br/>
+We combine marketing intelligence, web analytics, customer journey mapping, and ROI-focused strategies to unlock growth across all digital channels<br/><ul class="service-list">
+<li><strong>What We Offer</strong></li>
+</ul>
 
-📍 <strong>What We Offer</strong><br/>
-✅ <strong>Web & User Analytics</strong><br/>
-Track every action on your website or app — clicks, scrolls, conversions, and drop-offs<br/>
+<ul class="service-list">
+<li><strong>Web & User Analytics</strong></li>
+</ul>
+
+Track every action on your website or app  clicks, scrolls, conversions, and drop-offs<br/>
 
 Google Analytics 4 (GA4) setup<br/>
 
@@ -44,10 +49,11 @@ Conversion funnel analysis<br/>
 
 Bounce rate & behavior tracking<br/>
 
-Custom dashboards & reports<br/><br/>
+Custom dashboards & reports<br/><ul class="service-list">
+<li><strong>Performance Audits</strong></li>
+</ul>
 
-✅ <strong>Performance Audits</strong><br/>
-Know what’s working — and what’s not — across your website, ads, SEO, and content<br/>
+Know whats working  and whats not  across your website, ads, SEO, and content<br/>
 
 Website speed & technical SEO audit<br/>
 
@@ -55,9 +61,10 @@ Ad campaign performance review<br/>
 
 Landing page effectiveness check<br/>
 
-Keyword & traffic source analysis<br/><br/>
+Keyword & traffic source analysis<br/><ul class="service-list">
+<li><strong>Marketing Strategy & Planning</strong></li>
+</ul>
 
-✅ <strong>Marketing Strategy & Planning</strong><br/>
 We help you build data-backed digital growth strategies tailored to your brand, audience, and goals<br/>
 
 Multi-channel marketing roadmap<br/>
@@ -68,9 +75,10 @@ Budget allocation & ROI projection<br/>
 
 Competitive landscape & SWOT analysis<br/>
 
-Short-term and long-term campaign plans<br/><br/>
+Short-term and long-term campaign plans<br/><ul class="service-list">
+<li><strong>Conversion Rate Optimization (CRO)</strong></li>
+</ul>
 
-✅ <strong>Conversion Rate Optimization (CRO)</strong><br/>
 We improve the percentage of visitors who become customers or leads.<br/>
 
 A/B testing for landing pages<br/>
@@ -79,9 +87,10 @@ Funnel leaks & form drop-off analysis<br/>
 
 CTA and layout optimization<br/>
 
-Trust factor improvement (UX/CX updates)<br/><br/>
+Trust factor improvement (UX/CX updates)<br/><ul class="service-list">
+<li><strong>Campaign Monitoring & KPI Reporting</strong></li>
+</ul>
 
-✅ <strong>Campaign Monitoring & KPI Reporting</strong><br/>
 Real-time monitoring of all active campaigns with key performance metrics.<br/>
 
 Custom KPI dashboards<br/>
@@ -90,31 +99,64 @@ Weekly/monthly performance reports<br/>
 
 Lead tracking & attribution<br/>
 
-Strategy refinement based on insights<br/><br/>
+Strategy refinement based on insights<br/><ul class="service-list">
+<li><strong>Why Analytics & Strategy Matter</strong></li>
+</ul>
 
-🧠 <strong>Why Analytics & Strategy Matter</strong><br/>
-🎯 Data without strategy is noise. We make your data meaningful<br/>
+<ul class="service-list">
+<li>Data without strategy is noise. We make your data meaningful</li>
+</ul>
 
-📈 Better ROI through informed decision-making<br/>
 
-🚀 Scalable growth through insight-driven experimentation<br/>
+<ul class="service-list">
+<li>Better ROI through informed decision-making</li>
+</ul>
 
-🔄 Ongoing optimization keeps your campaigns agile<br/>
 
-📊 Complete visibility into customer journeys & behaviors<br/><br/>
+<ul class="service-list">
+<li>Scalable growth through insight-driven experimentation</li>
+</ul>
 
-🎯 <strong>Why Choose Script AI?</strong><br/>
-✅ Certified in Google Analytics, GA4, and Tag Manager<br/>
 
-✅ Experienced strategists across multiple industries<br/>
+<ul class="service-list">
+<li>Ongoing optimization keeps your campaigns agile</li>
+</ul>
 
-✅ Agile and ROI-focused planning<br/>
 
-✅ Clear, jargon-free reports and dashboards<br/>
+<ul class="service-list">
+<li>Complete visibility into customer journeys & behaviors</li>
+</ul>
+<ul class="service-list">
+<li><strong>Why Choose Script AI?</strong></li>
+</ul>
 
-✅ End-to-end support from audit to execution<br/><br/>
+<ul class="service-list">
+<li>Certified in Google Analytics, GA4, and Tag Manager</li>
+</ul>
 
-🛠️ <strong>Tools & Platforms We Use</strong><br/>
+
+<ul class="service-list">
+<li>Experienced strategists across multiple industries</li>
+</ul>
+
+
+<ul class="service-list">
+<li>Agile and ROI-focused planning</li>
+</ul>
+
+
+<ul class="service-list">
+<li>Clear, jargon-free reports and dashboards</li>
+</ul>
+
+
+<ul class="service-list">
+<li>End-to-end support from audit to execution</li>
+</ul>
+<ul class="service-list">
+<li><strong>Tools & Platforms We Use</strong></li>
+</ul>
+
 Google Analytics 4 (GA4)<br/>
 
 Google Tag Manager (GTM)<br/>
@@ -132,7 +174,7 @@ SEMrush / Ahrefs / Ubersuggest<br/>
 
 
 </p>
-  </div>
+  </div></div></div></section>
 <?php include '../footer.php'; ?>
 </body>
 </html>
