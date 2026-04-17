@@ -15,8 +15,8 @@
 <section class="ds-hero fade-up">
     <div class="hero-slider">
         <div class="slide active" style="background-image: url('img/home.png');"></div>
-        <div class="slide" style="background-image: url('img/slider1.jpg');"></div>
-        <div class="slide" style="background-image: url('img/slider2.jpg');"></div>
+        <div class="slide" style="background-image: url('img/s2.jpeg');"></div>
+        <div class="slide" style="background-image: url('img/s3.jpeg');"></div>
     </div>
     <div class="hero-overlay"></div>
 
@@ -149,9 +149,11 @@
 
 <!-- TESTIMONIALS SECTION -->
 <section class="ds-testimonials-section fade-up">
-    <div class="ds-container center-text">
-        <h2>What Our Clients Say</h2>
-        <p>Real experiences from startups and brands who scaled with ScriptAI.</p>
+    <div class="ds-container">
+        <div class="center-text">
+            <h2>What Our Clients Say</h2>
+            <p>Real experiences from startups and brands who scaled with ScriptAI.</p>
+        </div>
         <div class="testimonials-grid">
             <div class="testimonial-card">
                 <p class="review-text">"ScriptAI guided me through the complex web-app architecture for my startup. They were efficient, thorough, and clear, making a difficult job feel effortless. I highly recommend working with them."</p>

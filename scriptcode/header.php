@@ -17,14 +17,14 @@ $base = "/";
     <li class="dropdown">
       <a href="/services.php">Services ▾</a>
       <ul class="dropdown-menu">
-        <li><a href="/index.php#lta">Legal Tech Automation</a></li>
-        <li><a href="/index.php#sd">Software Development</a></li>
-        <li><a href="/index.php#wd">Web Development</a></li>
-        <li><a href="/index.php#ui">UI/UX Design</a></li>
-        <li><a href="/index.php#ma">Mobile App Development</a></li>
-        <li><a href="/index.php#dm">Digital Marketing</a></li>
-        <li><a href="/index.php#as">Analytics & Strategy</a></li>
-        <li><a href="/index.php#ch">Cloud Hosting</a></li>
+        <li><a href="/services/legal-tech-automation.php">Legal Tech Automation</a></li>
+        <li><a href="/services/software-development.php">Software Development</a></li>
+        <li><a href="/services/web-development.php">Web Development</a></li>
+        <li><a href="/services/ui-ux-design.php">UI/UX Design</a></li>
+        <li><a href="/services/mobile-apps.php">Mobile App Development</a></li>
+        <li><a href="/services/digital-marketing.php">Digital Marketing</a></li>
+        <li><a href="/services/analytics-strategy.php">Analytics & Strategy</a></li>
+        <li><a href="/services/cloud-hosting.php">Cloud Hosting</a></li>
       </ul>
     </li>
     <li><a href="/portfolio.php">Portfolio</a></li>
