@@ -9,6 +9,32 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
+  // Auto-Capsule Active Page Matcher
+  const currentPath = window.location.pathname;
+  const navItems = document.querySelectorAll('.nav-links a');
+  navItems.forEach(link => {
+    // Basic exact match or if current path contains the link's href and it's not simply / or index
+    const linkPath = new URL(link.href).pathname;
+    if (linkPath !== '/' && linkPath !== '/index.php') {
+      if (currentPath.includes(linkPath)) {
+        link.classList.add('active-nav');
+      }
+    } else if (currentPath === linkPath || (currentPath === '/' && linkPath === '/index.php')) {
+        link.classList.add('active-nav');
+    }
+  });
+
+  // Hero Auto-Rotating Background Slider
+  const slides = document.querySelectorAll('.hero-slider .slide');
+  if (slides.length > 0) {
+    let currentSlide = 0;
+    setInterval(() => {
+      slides[currentSlide].classList.remove('active');
+      currentSlide = (currentSlide + 1) % slides.length;
+      slides[currentSlide].classList.add('active');
+    }, 5000); // 5 second smooth rotation
+  }
+
   // Increasing Numbers Animation
   const counters = document.querySelectorAll('.stat-box h2, .reach-item h2');
   const speed = 100;

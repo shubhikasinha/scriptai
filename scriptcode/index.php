@@ -13,6 +13,13 @@
 
 <!-- HERO SECTION -->
 <section class="ds-hero fade-up">
+    <div class="hero-slider">
+        <div class="slide active" style="background-image: url('img/home.png');"></div>
+        <div class="slide" style="background-image: url('img/slider1.jpg');"></div>
+        <div class="slide" style="background-image: url('img/slider2.jpg');"></div>
+    </div>
+    <div class="hero-overlay"></div>
+
     <div class="ds-hero-content delay-1">
         <h1>Design, Automate, & Scale<br>Your <span class="text-purple">Business</span> by 2X today!</h1>
         <div class="ds-hero-buttons">
@@ -22,10 +29,6 @@
         <div class="ds-hero-reviews">
             <span class="stars">⭐⭐⭐⭐⭐ 4.9</span> | <strong>300+</strong> Clients
         </div>
-    </div>
-    <!-- Bottom floating hero image - using a static image from earlier slider -->
-    <div class="ds-hero-image">
-        <img src="img/home.png" alt="ScriptAI Team" class="hero-team-img">
     </div>
 </section>
 
@@ -139,6 +142,37 @@
             <div class="num-card solid-purple CTA-card">
                 <h3>Want to build a sustainable & profitable brand & grow 2X? Let us help.</h3>
                 <a href="contact.php" class="read-story white-text">Get Started →</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- TESTIMONIALS SECTION -->
+<section class="ds-testimonials-section fade-up">
+    <div class="ds-container center-text">
+        <h2>What Our Clients Say</h2>
+        <p>Real experiences from startups and brands who scaled with ScriptAI.</p>
+        <div class="testimonials-grid">
+            <div class="testimonial-card">
+                <p class="review-text">"ScriptAI guided me through the complex web-app architecture for my startup. They were efficient, thorough, and clear, making a difficult job feel effortless. I highly recommend working with them."</p>
+                <div class="reviewer-info">
+                    <strong>Rohan Mehra</strong>
+                    <span>Dwarka, Delhi</span>
+                </div>
+            </div>
+            <div class="testimonial-card">
+                <p class="review-text">"The automation software delivered by the ScriptAI team reduced our manual data entry overhead by 60%. Their 1% global talent pool truly reflects in their flawless coding standards and smooth delivery."</p>
+                <div class="reviewer-info">
+                    <strong>Priya Sharma</strong>
+                    <span>Andheri, Mumbai</span>
+                </div>
+            </div>
+            <div class="testimonial-card">
+                <p class="review-text">"I needed a high-performance e-commerce platform launched in just under 2 weeks. Not only did they beat the deadline, but the UI/UX design is world-class. It helped us raise our seed round effortlessly."</p>
+                <div class="reviewer-info">
+                    <strong>Vikas Reddy</strong>
+                    <span>HSR Layout, Bengaluru</span>
+                </div>
             </div>
         </div>
     </div>

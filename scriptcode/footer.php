@@ -1,18 +1,5 @@
 <footer class="ds-footer">
     <div class="ds-container">
-        <!-- Reach Section -->
-        <div class="footer-reach">
-            <h3 class="reach-title">Our Reach //</h3>
-            <div class="reach-grid">
-                <div class="reach-item"><h2>10+</h2> <p>industries</p></div>
-                <div class="reach-item"><h2>100+</h2> <p>members</p></div>
-                <div class="reach-item"><h2>3+</h2> <p>office locations</p></div>
-                <div class="reach-item"><h2>300+</h2> <p>Brands</p></div>
-                <div class="reach-item"><h2>$10M+</h2> <p>in revenue</p></div>
-                <div class="reach-item"><h2>10+</h2> <p>partners</p></div>
-            </div>
-        </div>
-
         <!-- Floating White Box -->
         <div class="footer-white-box">
             <div class="white-box-col">
@@ -55,7 +42,6 @@
         </div>
 
         <div class="footer-bottom-text">
-            <p><strong>ScriptAI Digital Services</strong> is a revolutionary way for businesses to scale using software, automation & modern apps.</p>
             <hr style="border-color: rgba(255,255,255,0.1); margin: 30px 0;">
             <p>© <?php echo date("Y"); ?> ScriptAI Digital Services Pvt Ltd. All rights reserved.</p>
             <div class="footer-bottom-links">
