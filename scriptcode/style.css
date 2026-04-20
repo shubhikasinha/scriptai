@@ -20,6 +20,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+html, body {
+    overflow-x: hidden;
+}
+img, iframe {
+    max-width: 100%;
+}
 
 body {
     font-family: var(--font-body);
@@ -238,6 +244,14 @@ h1, h2, h3, h4, h5, h6 { font-family: var(--font-heading); color: var(--text-nav
 
 .floating-whatsapp { position: fixed; bottom: 30px; right: 30px; background: #25D366; color: white; width: 60px; height: 60px; border-radius: 50%; display: flex; justify-content: center; align-items: center; font-size: 30px; box-shadow: 0 4px 15px rgba(37,211,102,0.4); z-index: 999; }
 
+/* Global Services Grid Configuration */
+.services-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 40px;
+}
+
 /* RESPONSIVE */
 @media (max-width: 991px) {
     .ds-hero-content h1 { font-size: 42px; }
@@ -254,15 +268,21 @@ h1, h2, h3, h4, h5, h6 { font-family: var(--font-heading); color: var(--text-nav
 
 @media (max-width: 768px) {
     .hamburger { display: block; }
+    .header-cta { display: none; }
     .nav-links { display: none; position: absolute; top: 100%; left: 0; width: 100%; background: white; flex-direction: column; padding: 20px; box-shadow: 0 10px 20px rgba(0,0,0,0.1); }
     .nav-links.active { display: flex; }
     .ds-hero-buttons { flex-direction: column; }
     .ds-btn { width: 100%; justify-content: center; }
     
     /* Core Typography & Spacing Scaling */
-    .ds-hero-content h1 { font-size: 36px; }
+    .ds-hero-content h1 { font-size: 32px; }
     .ds-mini-hero h1 { font-size: 32px; }
     .service-article-content h1 { font-size: 28px; }
+    .partner-text h2 { font-size: 30px; }
+    .stat-box h2 { font-size: 36px; }
+    .numbers-heading { font-size: 32px; }
+    .num-card h3 { font-size: 24px; }
+    
     .testimonial-card { padding: 20px; }
     .ds-form-container { padding: 20px; }
     .services-cards { grid-template-columns: 1fr; }
@@ -290,14 +310,6 @@ h1, h2, h3, h4, h5, h6 { font-family: var(--font-heading); color: var(--text-nav
 
 .delay-1 { animation-delay: 0.2s; }
 .delay-2 { animation-delay: 0.4s; }
-
-/* Global Services Grid Configuration */
-.services-cards {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-    margin-top: 40px;
-}
 
 /* Internal Pages Mini Hero Wrapper */
 .ds-mini-hero {
