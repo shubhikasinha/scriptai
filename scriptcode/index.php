@@ -184,7 +184,7 @@
 <section class="services-listing ds-container" style="margin-top: 100px; margin-bottom: 100px;">
     <!-- Just putting original services here so SEO/links don't break completely -->
     <h2 style="text-align:center; font-size: 32px; color: var(--primary);">Full Scope of Services</h2>
-    <div class="cards" style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; margin-top: 40px;">
+    <div class="services-cards cards">
         <div class="card" style="padding: 20px; border:1px solid #eee; border-radius:12px;"><h3><a name="lta" href="services/legal-tech-automation.php">Legal Tech Automation</a></h3></div>
         <div class="card" style="padding: 20px; border:1px solid #eee; border-radius:12px;"><h3><a name="sd" href="services/software-development.php">Software Development</a></h3></div>
         <div class="card" style="padding: 20px; border:1px solid #eee; border-radius:12px;"><h3><a name="wd" href="services/web-development.php">Web Development</a></h3></div>

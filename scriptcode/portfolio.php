@@ -21,7 +21,7 @@
 
   <!-- Portfolio Grid -->
   <section class="ds-content-section fade-up delay-1">
-    <div class="ds-container" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 40px;">
+    <div class="ds-container" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 40px;">
       
       <div style="border: 1px solid var(--border-light); border-radius: 12px; overflow: hidden; padding: 20px;">
         <img src="https://via.placeholder.com/300x200/dbd6f2/6A28BF?text=Project+1" alt="Project 1" style="width: 100%; height: 200px; object-fit: cover; border-radius: 8px;">

@@ -20,7 +20,7 @@
   </section>
 
   <section class="ds-content-section fade-up delay-1">
-    <div class="ds-container" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); gap: 60px;">
+    <div class="ds-container" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 60px;">
       
       <!-- LEFT : CONTACT FORM -->
       <div class="ds-form-container" style="margin: 0; width: 100%;">

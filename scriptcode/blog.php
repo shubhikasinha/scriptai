@@ -63,7 +63,7 @@ $posts = $stmt->fetchAll(PDO::FETCH_ASSOC);
 <section class="ds-content-section fade-up delay-1">
   <div class="ds-container">
     
-    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 40px;">
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 40px;">
       <?php foreach ($posts as $post): ?>
         <div style="border: 1px solid var(--border-light); border-radius: 12px; overflow: hidden; padding: 30px; display: flex; flex-direction: column;">
           <h3 style="margin-top: 0; font-size: 22px; margin-bottom: 15px; color: var(--text-navy);"><?= htmlspecialchars($post['title']) ?></h3>
